@@ -18,7 +18,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ECOMMERCEAPP">
       <Navbar />
       <Routes>
         <Route path='/' element={<Shop />} />
